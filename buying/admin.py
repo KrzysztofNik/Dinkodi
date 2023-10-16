@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Address, ShoppingCart, Transaction
+
+admin.site.register(Address)
+admin.site.register(ShoppingCart)
+admin.site.register(Transaction)
